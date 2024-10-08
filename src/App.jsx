@@ -1,10 +1,12 @@
-import { Counter } from "./components/Counter/Counter";
+//import { Counter } from "./components/Counter/Counter";
+import { TodoList } from "./components/TodoList/TodoList";
 //import "./App.css";
 
 const App = () => {
   return (
     <>
-      <Counter />
+      <TodoList />
+      {/* <Counter /> */}
     </>
   );
 };
